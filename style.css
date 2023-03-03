@@ -99,3 +99,10 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
+footer>p{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: cursive;
+}
