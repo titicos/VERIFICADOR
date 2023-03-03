@@ -91,3 +91,11 @@ header{
 .visivel{
     display: block;
 }
+
+footer{
+    height: 10vh;
+    background-color: rgb(62, 56, 56);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
