@@ -1,10 +1,16 @@
 
 //EQUIPAMENTOS GIGA:
 
-let ont414 = "70:CD:91";
-let risecom = "CC:C2:E0";
-let podre = "14:23:0A";
-let huaweiboa ="A4:BD:C4"
+let ont414 = "70:CD:91";//adicionado
+let risecom = "CC:C2:E0";//adicionado
+let huaweiboa ="A4:BD:C4"//
+let HG8145V5 ="14:23:0A";//
+let EG8145V5="A4:7C:C9";//
+let ZXHNF670L="F8:64:B8";//
+let HHG8145V5 = "24:91:BB";//
+let HG8145V52 = "14:AB:02";//
+let ZT199 = "44:59:43";//
+
 
 
 
@@ -15,14 +21,16 @@ let iwr300 = "80:80:80"
 var fast = []
 fast.push(iwr300)
 
-
-
-
 var equipamentos = []
 equipamentos.push(ont414);
 equipamentos.push(risecom);
-equipamentos.push(podre);
 equipamentos.push(huaweiboa);
+equipamentos.push(HG8145V5);
+equipamentos.push(EG8145V5);
+equipamentos.push(ZXHNF670L);
+equipamentos.push(HHG8145V5);
+equipamentos.push(HG8145V52);
+equipamentos.push(ZT199);
 
 let btn = document.querySelector("button");
 
