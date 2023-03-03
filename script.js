@@ -51,6 +51,7 @@ else{
   if(rest==true){
     var paragrafo = document.querySelector(".final");
     paragrafo.textContent = ("EQUIPAMENTO É --GIGA---");
+    adicionarImagem();
   
   }
  else{
@@ -60,6 +61,16 @@ else{
 }
 
 }
+
+
+  function adicionarImagem(){
+
+  let resposta = document.querySelector("input").value;
+  let respostanova = resposta.toUpperCase();
+
+  let semPonto =respostanova.replace(/:/g, "");
+
+  }
 
 
 
