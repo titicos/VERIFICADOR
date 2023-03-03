@@ -70,6 +70,9 @@ else{
 
   let semPonto =respostanova.replace(/:/g, "");
 
+  var imagem =document.querySelector(".imagem");
+  imagem.setAttribute('src','equipamentos/'+semPonto+'.jpg')
+  
   }
 
 

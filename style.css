@@ -64,6 +64,7 @@ button:hover{
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    background-color: antiquewhite;
 }
 
 header{
@@ -88,9 +89,6 @@ header{
     font-weight: 800;
 }
 
-.visivel{
-    display: block;
-}
 
 footer{
     height: 10vh;
