@@ -19,9 +19,17 @@ input{
 button{
     padding: 10px;
     border-radius: 10px;
-    background-color: rgb(45, 218, 45);
+    background-color: rgb(11, 12, 11);
     cursor: pointer;
     width: 20%;
+    color: white;
+    border: none;
+}
+
+button:hover{
+    background-color: dodgerblue;
+    color: black;
+    transition: 1s;
 }
 .container{
     margin-top: 10px;
